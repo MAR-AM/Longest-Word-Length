@@ -1,0 +1,6 @@
+var test2=(chain)=>
+        {
+             Math.max(chain.split(" ").map(word => word.length));
+        }
+        var chain = prompt(" HERE : ") 
+        document.write(test2(chain))
